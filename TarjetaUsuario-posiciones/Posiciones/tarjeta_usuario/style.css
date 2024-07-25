@@ -1,0 +1,42 @@
+.contenedor-principal{
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    border: 1px solid transparent;
+    box-shadow: 0 1px 4px 0 lightgray;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+} 
+.header{
+    height: 100px ;
+    background-color: #00bbd3;
+    border-radius: 10px 10px 0 0;
+}
+
+.main img{
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    bottom: 270px;
+}
+.main{
+    position: relative;
+    margin-left: 30px;
+    width: 90%;
+}
+.main h1{
+    margin-top: 100px;
+}
+.main h2, p{
+    color: grey;
+    font-size: medium;
+}
+.main button{
+    background-color: lightgrey;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}

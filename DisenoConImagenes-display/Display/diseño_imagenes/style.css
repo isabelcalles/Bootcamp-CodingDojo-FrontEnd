@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 20px 0;
+}
+.fila{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 300px;
+}
+.fila:nth-child(odd){
+    background-color: lightgoldenrodyellow;
+}
+.fila:nth-child(even){
+    background-color: lightpink;
+}
+.fila:nth-child(2){
+    background-color: lavender;
+}
+.fila img{
+    margin: 0 10px;
+    width:200px;
+    height: auto;
+    border: 2px solid black;
+    
+}
+.footer{
+    background-color: lightgreen;
+    padding: 10px 0;
+    font-size: 18px;
+    border-top: 2px solid;
+}
